@@ -6,7 +6,7 @@ from aiogram.fsm.state import State, StatesGroup
 from aiogram.fsm.context import FSMContext
 
 # --- Настройки ---
-BOT_TOKEN = "8349697695:AAGUybFJS22Khob4V0-Ir1KCJ6vdWEbOsY4"  # ← замените на свой
+BOT_TOKEN = "834:AAGUybFJS22Khob"  # ← замените на свой
 
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher()
@@ -142,3 +142,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
